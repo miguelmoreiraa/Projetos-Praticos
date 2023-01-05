@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --body-bg-color: #22212c;
+  --text-color: #837e9f;
+  --bg-cards: #302f3d;
+  --bg-techs: #cb92b1;
+}
+
+body {
+  background-color: var(--body-bg-color);
+}
+
+.page {
+  border: 2px solid var(--body-bg-color);
+  min-height: 100vh;
+  display: flex;
+}
+
+aside {
+  background-color: lightgreen;
+  flex: 1;
+}
+
+main {
+  background-color: lightblue;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+main section:nth-child(1) {
+  background-color: lightyellow;
+  flex: 2;
+}
+
+main section:nth-child(2) {
+  background-color: white;
+  flex: 2;
+}
+
+main section:nth-child(3) {
+  background-color: lightpink;
+  flex: 11;
+}
+
+/* .container {
+  height: 100vh;
+  background-color: var(--bg-cards);
+  border-radius: 10px;
+  margin: 30px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 2px solid var(--body-bg-color);
+}
+
+aside {
+  flex: 1;
+}
+
+.image-profile {
+  width: 90px;
+  height: 90px;
+  border-radius: 100px;
+  border: 2px solid #00ff00;
+}
+
+.name {
+  color: var(--text-color);
+  font-family: Merriweather Sans;
+  font-weight: 700;
+}
+
+.name-secondary {
+  color: var(--text-color);
+  font-family: Merriweather Sans;
+  font-weight: 400;
+  font-size: 10px;
+} */
