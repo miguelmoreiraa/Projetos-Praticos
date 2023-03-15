@@ -162,18 +162,11 @@ body {
   line-height: 18px;
 
   color: #837e9f;
-}
-
-.experiences {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: column;
-  padding: 20px 45px;
+  padding: 0px 45px;
 }
 
 .text-small {
@@ -194,6 +187,43 @@ body {
   height: 352px;
   border-radius: 20px;
   margin: 10px 40px;
+}
+
+.educations {
+  width: 175px;
+  height: 243px;
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #837e9f;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.text-education {
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  padding: 10px 15px;
+  color: var(--text-color);
+}
+
+.text-edu {
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .photoProfile {
@@ -223,4 +253,70 @@ body {
   font-size: 13px;
   line-height: 16px;
   color: var(--text-color);
+}
+
+.divisão {
+  width: 100vw;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.project-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.project {
+  width: 952px;
+  height: 86px;
+}
+
+.header-project {
+  width: 1350px;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+  border-radius: 20px;
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #837e9f;
+  margin: 10px 0px;
+}
+
+.project-pessoal {
+  width: 1350px;
+  height: 213px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+
+  border-radius: 20px;
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #837e9f;
+  margin: 10px 0px;
+}
+
+.one-project {
+  width: 461px;
+  height: 186px;
+  background: #302f3d;
+  border-radius: 20px;
 }
