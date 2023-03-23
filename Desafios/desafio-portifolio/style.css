@@ -15,6 +15,7 @@ body {
   width: 100vw;
   height: 100vh;
   font-family: Merriweather Sans;
+  overflow-x: hidden;
 }
 
 .todo {
@@ -255,7 +256,7 @@ body {
   color: var(--text-color);
 }
 
-.divisão {
+.divisao {
   width: 100vw;
   display: flex;
   align-items: flex-start;
@@ -320,3 +321,50 @@ body {
   background: #302f3d;
   border-radius: 20px;
 }
+
+.recent-post {
+  width: 1330px;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+  border-radius: 20px;
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #837e9f;
+  margin: 10px 0px;
+  justify-content: flex-start;
+  padding: 0px 10px;
+}
+
+.post {
+  width: 1330px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+  border-radius: 20px;
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #837e9f;
+  margin: 10px 0px;
+  justify-content: flex-start;
+  padding: 0px 10px;
+}
+
